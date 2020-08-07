@@ -1,0 +1,154 @@
+.foto-perfil{
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.foto {
+    height: 225px;
+    width: 100%;
+    display: block;
+}
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.contato-whats {
+    outline: none;
+    color: forestgreen;
+}
+
+.contato-whats:hover{
+    text-decoration: none;
+    opacity: 0.5;
+    color: #6ac267;
+}
+
+.contato-email {
+    outline: none;
+    color: #13253d;
+}
+
+.contato-email:hover{
+    text-decoration: none;
+    opacity: 0.5;
+    color: #2f5a92;
+}
+
+.corPrimaria {
+    background-color: #050505 !important;
+}
+
+.corSecundaria {
+    background-color: #d5dadf !important;
+}
+
+p {
+    color: black !important;
+}
+
+.icones {
+    padding-left: 7px;
+}
+
+.icone:hover {
+    opacity: 0.5;
+    color: #ddd;
+}
+
+.listas {
+    font-weight: bold;
+    color: #555 !important;
+    padding-left: 5px !important;
+    list-style: circle;
+    list-style-position: inside;
+}
+
+.titulosBrancos {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.titulosAzul {
+    padding-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2e302f;
+}
+
+.textoBranco {
+    color: #eee !important;
+}
+
+.jumbotron {
+    margin-bottom: 0px !important;
+    border-radius: 0px !important;
+}
+
+.footer {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+.btnProjeto {
+    background-color:#3aa037 !important;
+    color: #eee !important;
+}
+
+.btnCodigo{
+    margin-left: 10px;
+    background-color: #007bff !important;
+    color: #eee !important;
+}
+
+.btnProjeto:hover {
+    opacity: 0.5;
+}
+
+.cards{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnCodigo:hover{
+    opacity: 0.5;
+}
+
+.projetos {
+    width: 100vw;
+    height: 43rem;
+}
+
+.sombra {
+    box-shadow: 3px 3px 15px#666;
+}
+
+@media screen and (max-width: 600px){
+    p {
+     font-size: 10pt;
+    }
+
+    .listas {
+        font-size: 12pt;
+    }
+    
+}
+
+

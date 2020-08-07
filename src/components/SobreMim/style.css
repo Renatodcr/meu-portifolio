@@ -1,0 +1,17 @@
+
+.bodySobreMim {
+    background-color: #4a4e4c !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+    height: 100vh;
+}
+
+
+.corFundo {
+    background-color: #4a4e4c !important;
+}
+
+.corSecundaria {
+    background-color: #d5dadf !important;
+}
